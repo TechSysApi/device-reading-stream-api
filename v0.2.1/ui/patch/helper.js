@@ -29,7 +29,7 @@ $ = function (f) {
 
     Handlebars.templates.signature = Handlebars.compile('{{sanitize signature}}');
 
-    var url = "../model/openapi/api.yaml";
+    var url = "../complete-api.yaml";
     if(window.location.search !="?url="+url) {
         window.location.search = "?url="+url;
     }
