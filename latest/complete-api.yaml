@@ -4,7 +4,7 @@ info:
   description: "The Mqtt topics define the interface between a coding client (e.g. Manual Coding Bulk) and a device (e.g. a volume scanner). For requesting and receiving reading data such as\ndimensions, weighing and image recognition.\n"
   contact:
     name: petersimo
-  version: 0.2.1
+  version: 0.2.2
 host: 'server:8080'
 basePath: MQTT
 paths:
